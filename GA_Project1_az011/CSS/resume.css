@@ -5,7 +5,7 @@
 	margin-right: 300px;
 	margin-top: 50px;
 	margin-bottom: 50px;
-	text-align: center;
+	text-align: left;
 	background-color: rgba(192,192,192,0.7);
 	font-family: Courier;
 	height: auto;
@@ -13,13 +13,29 @@
 	padding: 25px;
 }
 
-h1 {
-  font-size: 60px
-}
-
 nav {
   font-size: 20px;
   margin-bottom: -10px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: -10px;
+}
+
+.resume_sections{
+	font-weight: bold;
+	font-size: 24px;
+	margin-bottom: -10px;
+	margin-top: 15px;
+}
+
+.descriptions{
+	font-style: italic;
+	font-size: 18px;
+	margin-bottom: -15px;
 }
 
 body {
@@ -28,8 +44,7 @@ body {
 }
 
 p {
-	font-size: 20px;
-	font-weight: bold;
+	font-size: 16px;
 }
 
 a {
