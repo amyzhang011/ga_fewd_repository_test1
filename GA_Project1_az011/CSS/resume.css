@@ -1,10 +1,8 @@
 .mainbox{
 	vertical-align: center;
 	position: relative;
-	margin-left: 300px;
-	margin-right: 300px;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
 	text-align: left;
 	background-color: rgba(192,192,192,0.7);
 	font-family: Courier;
@@ -40,7 +38,8 @@ h1 {
 
 body {
   background-image: url('../img/flower_background2.jpg');
-  background-size: 100%; 
+  background-size: 100%;
+  padding: 50px;
 }
 
 p {
