@@ -10,6 +10,10 @@ body {
   padding-top: 30px;
 }
 
+p {
+  line-height: 1.5em;
+}
+
 #title {
   color: #FF0000;
   font-size: 3em;
@@ -34,10 +38,6 @@ body {
   font-size: 2em;
   font-weight: 300;
   margin-bottom: .5em;
-}
-
-p {
-  line-height: 1.5em;
 }
 
 #HeaderNav a {
@@ -72,19 +72,23 @@ p {
   padding-right: .15em;
 }
 
-.Footer {
-padding-top: 50px;
-min-width: 685px;
+#Copyright {
+  color: #D8D8D8; 
 }
 
-.FooterNav li {
-  display: inline;
-  border-left: 1px solid gray;
+.Footer {
+  padding-top: 50px;
+  min-width: 685px;
 }
 
 ul.FooterNav {
   margin-bottom: 2em;
   padding-left: 0;
+}
+
+.FooterNav li {
+  display: inline;
+  border-left: 1px solid gray;
 }
 
 .FooterNav li:first-child{
@@ -97,8 +101,4 @@ ul.FooterNav {
   text-decoration: none;
   padding-left: .3em;
   padding-right: .2em;
-}
-
-#Copyright {
- color: #D8D8D8; 
 }
