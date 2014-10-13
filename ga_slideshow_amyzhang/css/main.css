@@ -1,47 +1,43 @@
 body {
-	font-family: Helvetica, Georgia, sans-serif;
-}
-
-#mainContainer {
-	width: 100%;
-	height: 100%;
-	background-color: gray;
-}
-
-#mainImage {
-	position: absolute;
-	width: 100%;
-	height: 100%;
+	background-image: url('../img/img-0.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: inline-block;
 }
 
 #controlBar {
 	position: absolute;
-	margin-left: 100px;
+	display: inline-block;
 	bottom: 0px;
-	width: 100%;
 	height: 100px;
 }
 
 .btn {
-	position: relative;
 	display: inline-block;
 	height: 80px;
 	width: 80px;
+	margin-left: 10px;
+	margin-right: 10px;
 	background-color: black;
+	cursor: pointer;
+}
+
+#images {
+	display: inline-block;
+	bottom: 0px;
 }
 
 .thumb {
-	position: relative;
-	padding-right: 20px;
-	width: 80px;
-	height: 80px;
-	background-color: black;
+	display: inline-block;
 	cursor: pointer;
 	overflow: hidden;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .thumb img {
-	width: 80px;
+	height: 80px;
 }
 
 .thumb:hover {
